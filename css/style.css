@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .navbarContainer {
-    background-color: lightblue;
+    background-color:#5E9CE7;
     margin-top: 0px;
 }
 .navbar {
@@ -14,14 +14,42 @@
     /* background-color:lightblue; */
 }
 .coName {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
     font-size: 2em;
     margin-left: 4%;
     margin-top: 0.5%;
 }
 .backgroundImg {
-    background-image: url("../img/aurora.jpg");
+    background-image: url("../img/aurora1.jpg");
     height: 450px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+/* .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.underRubrik {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2.75em;
+}
+.cardFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: #5E9CE7; */
+}
+.card {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-color: black;
+    -webkit-box-shadow: 2px 2px 3px 4px rgb(145, 142, 142);  
+    -moz-box-shadow: 2px 2px 3px 4px rgb(180, 180, 180);  
+    box-shadow: 1px 1px 2px 3px rgb(165, 163, 163);
 }
