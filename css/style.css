@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbarContainer {
+    background-color: lightblue;
+    margin-top: 0px;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:; */
+    margin: 0;
+    /* background-color:lightblue; */
+}
+.coName {
+    font-size: 2em;
+    margin-left: 4%;
+    margin-top: 0.5%;
+}
+.backgroundImg {
+    background-image: url("../img/aurora.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
