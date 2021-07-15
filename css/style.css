@@ -97,6 +97,47 @@
     font-size: 1.5em;
     
 }
+.aboutFlex {
+    display: grid;
+    grid-template-columns: 400px 50px 200px 100px auto 50px ;
+    grid-template-rows: 50px 100px 100px 100px 100px 100px 100px 100px;
+}
+.aboutImg {
+    background-image: url(../img/HenrikBystrom1.jpg);
+    width: 400px;
+    height: 562px;
+    border-radius: 0px 250px 250px 0px;
+    grid-column-start: 1;
+    grid-column-end:2 ;
+    grid-row-start: 2;
+}
+.aboutTextBlock {
+    grid-column-start:3 ;
+    grid-column-end: 6 ;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+.contact {
+    margin-top: 0.5em;
+    font-size: 4em;
+}
+.border {
+    border-bottom: orange 4px solid;
+    width: 100%;
+}
+.aboutText {
+margin-top: 1em;
+}
+.tele {
+    color: black;
+    text-decoration: none;
+}
+.tele::after {
+    color: black;
+}
+.number {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 700px) {
     .logo {
