@@ -3,29 +3,28 @@
     padding: 0px;
 }
 .navbarContainer {
-    background-color:#5E9CE7;
     margin-top: 0px;
 }
 .navbar {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
-    margin: 0;
+
+    margin-left: 2em;
     /* background-color:lightblue; */
 }
-.coName {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 400;
-    font-size: 1.5em;
-    margin-left: 4%;
-    margin-top: 0.5%;
+.logo {
+    width: 311px;
+    height: 120px;
+    background-image: url(../img/Logo3.jpg);
+    margin-left: 4.5em;
 }
 .backgroundImg {
-    background-image: url("../img/snow.jpg");
+    background-image: url("../img/river1920.jpg");
     width: 100%;
     height: 400px;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
+    background-position: center;
     /* background-size: cover; */
 }
 .flexWrap {
@@ -42,10 +41,10 @@
 }
 .slogan {
     color: white;
-    width:500px;
-    font-size: 3.5em;
-    background: rgb(0, 0, 0); /* fallback color */
-    background: rgba(22, 20, 20, 0.8);
+    width:700px;
+    font-size: 2.5em;
+    /* background: rgb(0, 0, 0); fallback color
+    background: rgba(22, 20, 20, 0.8); */
     padding: 0.15em;
     text-align: center;
 }
@@ -75,10 +74,16 @@
     box-shadow: 1px 1px 2px 3px rgb(165, 163, 163);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+    .logo {
+        background-image: url(../img/Logo.jpg);
+        width: 210px;
+        height: 81px;
+        margin-left: 0.25em;
+    }
     .slogan {
         width: 250px;
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .undertext {
         font-size: 1em;
@@ -88,9 +93,35 @@
        margin: 0.5em ;
     }
     .backgroundImg {
+        background-image: url(../img/river640.jpg);
         height: 300px;
     }
     .sloganContainer {
-        margin-top: 100px;
+        margin-top: 75px;
+    }
+}
+@media screen and (min-width: 1445px) {
+    .logo {
+        background-image: url(../img/Logo2.jpg);
+        width: 518px;
+        height:200px;
+        margin-left: 7em;
+    }
+    .backgroundImg {
+        background-image: url('../img/river.jpg');
+        height: 800px;
+    }
+    .slogan {
+        width: 1400px;
+        font-size: 5em;
+    }
+    .sloganContainer {
+        margin-top: 200px;
+    }
+    .coName {
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 400;
+        font-size: 4em;
+        margin: 1.5%;
     }
 }
