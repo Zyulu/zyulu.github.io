@@ -102,6 +102,7 @@
     display: grid;
     grid-template-columns: 400px 50px 200px 100px auto 50px ;
     grid-template-rows: 50px 100px 100px 100px 100px 100px 100px 100px;
+    margin-bottom: 1em;
 }
 .aboutImg {
     background-image: url(../img/HenrikBystrom1.jpg);
