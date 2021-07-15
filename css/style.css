@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .navbarContainer {
     margin-top: 0px;
@@ -125,6 +126,9 @@
     border-bottom: orange 4px solid;
     width: 100%;
 }
+.quote {
+    margin-left: 5em;
+}
 .aboutText {
 margin-top: 1em;
 }
@@ -173,6 +177,36 @@ margin-top: 1em;
     .boxText {
         font-size: 1.25em;
     }
+    .aboutFlex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .aboutImg {
+        background-image: url(../img/HenrikBystrom2.jpg);
+        width: 300px;
+        height: 442px;
+        border-radius: 30px;
+    }
+    .quote {
+        margin-top: 2.5em;
+        text-align: center;
+        width: 100%;
+    }
+    .contact {
+        text-align: center;
+    }
+    .border {
+        display: flex;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+    .aboutText {
+        text-align: center;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
     
 }
 @media screen and (max-width: 800px) {
@@ -209,5 +243,8 @@ margin-top: 1em;
     }
     .boxText {
         font-size: 3em;
+    }
+    .quote {
+        text-align: center;
     }
 }
