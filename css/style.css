@@ -26,6 +26,7 @@
     /* background-attachment: fixed; */
     background-position: center;
     /* background-size: cover; */
+    border-radius: 175px 0px 175px 0px;
 }
 .flexWrap {
     display: flex;
@@ -63,7 +64,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #5E9CE7;
 }
 .card {
     margin-top: 1.5em;
@@ -80,6 +80,7 @@
         width: 210px;
         height: 81px;
         margin-left: 0.25em;
+        
     }
     .slogan {
         width: 250px;
@@ -95,6 +96,7 @@
     .backgroundImg {
         background-image: url(../img/river640.jpg);
         height: 300px;
+        border-radius: 100px 0px 100px 0px;
     }
     .sloganContainer {
         margin-top: 75px;
@@ -110,6 +112,7 @@
     .backgroundImg {
         background-image: url('../img/river.jpg');
         height: 800px;
+        border-radius: 250px 0px 250px 0px;
     }
     .slogan {
         width: 1400px;
