@@ -150,6 +150,7 @@ margin-top: 1em;
     left: 10%;
     right: 10%;
     width: 80%;
+    height: 5%;
     padding: 5px 14px;
     display: flex;
     align-items: center;
@@ -159,12 +160,16 @@ margin-top: 1em;
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
   }
   .close {
-    height: 20px;
-    background-color: #777;
+    height: 2em;
+    width: 4em;
+    background-color: #087dcc;
     border: none;
     color: white;
-    border-radius: 2px;
+    border-radius: 10px;
     cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 10px;
   }
 
 @media screen and (max-width: 700px) {
