@@ -1,7 +1,7 @@
-if (localStorage.getItem('cookieSeen') != 'shown') {
-    $('.cookie-banner').delay(2000).fadeIn();
-    localStorage.setItem('cookieSeen','shown')
-  };
-  $('.close').click(function() {
-    $('.cookie-banner').fadeOut();
-  })
+let cookieBtn = document.getElementByID('close');
+
+function btnClose() {
+    document.getElementById('cookie-banner').style.display="none";
+}
+
+cookieBtn.addEventListener("click", btnClose());
