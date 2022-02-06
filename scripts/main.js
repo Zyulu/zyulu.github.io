@@ -1,4 +1,4 @@
-let cookieBtn = document.getElementByID('close');
+let cookieBtn = document.getElementById('close');
 
 function btnClose() {
     document.getElementById('cookie-banner').style.display="none";
