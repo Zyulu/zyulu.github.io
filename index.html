@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
   <script>
+    // Define dataLayer and the gtag function.
     window.dataLayer = window.dataLayer || [];
-    function gtag() { window.dataLayer.push(arguments); }
-        gtag('consent', 'default', {
-        ad_storage: 'denied',
-        analytics_storage: 'denied',
-        wait_for_update: 500
-});
+    function gtag(){dataLayer.push(arguments);}
+ 
+    // Default ad_storage to 'denied'.
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied'
+    });
   </script>
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
