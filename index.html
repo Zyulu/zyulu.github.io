@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+    // Define dataLayer and the gtag function.
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+ 
+    // Default ad_storage to 'denied'.
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied'
+    });
+  </script>
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -80,7 +91,7 @@
     <!-- http://colormind.io/ -->
     <div class='cookie-banner' id="cookie-banner">
       <p>
-          By using our website, you agree to our usage of cookies.
+          By using our website, you agree to our usage of cookies. <a href="/cookies.html">Learn More</a>.
           
         </p>
       <p class='close' id="close">Accept</p>
