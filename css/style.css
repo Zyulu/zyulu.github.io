@@ -391,6 +391,15 @@ font-size: 1.2em;
         display: none;
     }
 }
+@media screen and (min-width: 1000px) {
+    .logo {
+        background-image: url(../img/Logo2.jpg);
+        width: 210px;
+        height: 81px;
+        margin-left: 0.25em;
+        
+    }
+}
 @media screen and (min-width: 1445px) {
     .logo {
         background-image: url(../img/Logo2.jpg);
@@ -429,7 +438,7 @@ font-size: 1.2em;
         text-align: center;
     }
 }
-@media screen and (min-height: 870px) {
+@media screen and (min-height: 870px) and (min-width: 500px) {
     .logo {
         background-image: url(../img/Logo2.jpg);
         width: 518px;
@@ -458,5 +467,25 @@ font-size: 1.2em;
     }
     .textP {
         font-size: 1.6em;
+    }
+}
+@media screen and (min-height: 870px) and (min-width: 500px) and (max-width: 1440px) {
+    .navbarContainer {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .logo {
+        background-image: url(../img/Logo.jpg);
+        width: 210px;
+        height: 81px;
+        margin-left: 0.25em;
+        
+    }
+    .navbarItem {
+        width: 210px;
+        height: 81px;
+    }
+    .navText {
+        position: inherit;
     }
 }
