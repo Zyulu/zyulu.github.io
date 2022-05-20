@@ -405,10 +405,10 @@ font-size: 1.2em;
         background-image: url(../img/Logo2.jpg);
         width: 518px;
         height:200px;
-        margin-left: 7em;
+        margin-left: 5em;
     }
     .navbarItem {
-        width: 518px;
+        width: 400px;
         height:200px;
         font-size: 2.8em;
     }
@@ -417,7 +417,7 @@ font-size: 1.2em;
     }
     .backgroundImg {
         background-image: url('../img/river.jpg');
-        height: 800px;
+        height: 600px;
         border-radius: 250px 0px 250px 0px;
     }
     .slogan {
@@ -429,7 +429,7 @@ font-size: 1.2em;
     }
     .box {
         height: 250px;
-        width: 500px;
+        width: 400px;
     }
     .boxText {
         font-size: 3em;
@@ -487,5 +487,40 @@ font-size: 1.2em;
     }
     .navText {
         position: inherit;
+    }
+}
+@media  screen and (min-width: 2560px) {
+    .logo {
+        background-image: url(../img/Logo2.jpg);
+        width: 518px;
+        height:200px;
+        margin-left: 5em;
+    }
+    .navbarItem {
+        width: 600px;
+        height:200px;
+        font-size: 3em;
+    }
+    .navText {
+        top: 1.5em;
+    }
+    .backgroundImg {
+        background-image: url('../img/river.jpg');
+        height: 1000px;
+        border-radius: 250px 0px 250px 0px;
+    }
+    .slogan {
+        width: 1400px;
+        font-size: 6em;
+    }
+    .sloganContainer {
+        margin-top: 400px;
+    }
+    .box {
+        height: 250px;
+        width: 500px;
+    }
+    .boxText {
+        font-size: 3em;
     }
 }
